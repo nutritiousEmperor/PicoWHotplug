@@ -5,6 +5,9 @@ import storage
 from adafruit_wsgi.wsgi_app import WSGIApp
 import wsgiserver as server
 
+print("Waiting 10 seconds so you have time to press the stop button in thonny to load the device.")
+time.sleep(10)
+
 # Set access point credentials
 ap_ssid = "myAP"
 ap_password = "password123"
